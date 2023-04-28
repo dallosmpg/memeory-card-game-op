@@ -1,9 +1,13 @@
 import './style//App.css';
 import Header from './components/Header';
+import Gameboard from './components/Gameboard';
 
 function App() {
   return (
-      <Header /> 
+      <div className='wrapper'>
+        <Header />
+        <Gameboard />
+      </div>
     );
 }
 

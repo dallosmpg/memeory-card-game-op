@@ -38,9 +38,7 @@
 ### Encountered challanges
 
 ### Process
+1. Laying out the site statically with creating components
+2. 
 
 ### Devlog
-
-
-
-Take a little bit of time to think about how you want to implement your application, the features you want to implement, which components you need, and how to structure your application. Your application should include a scoreboard, which counts the current score, and a “Best Score”, which shows the best score you achieved thus far. You also need a couple of cards that display images and possibly informational text. There should be a function that displays the cards in a random order anytime a user clicks one. Be sure to invoke that function when the component mounts.
