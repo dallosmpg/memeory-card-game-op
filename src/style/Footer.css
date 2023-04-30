@@ -1,0 +1,45 @@
+footer {
+    grid-column: span 2;
+    margin-top: 2.5rem;
+    position: relative;
+}
+.footer-wrapper {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 3px solid white;
+    border-radius: 10px 10px 0 0;
+    
+    background: black;
+    will-change: display;
+
+}
+.footer--toggle-btn {
+    width: 32px;
+    margin-bottom: .2rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.footer--toggle-btn:hover {
+    transform: scale(1.2);
+}
+
+.footer--contact-details {
+    width: 100%;
+    margin-top: 1rem;
+    padding-bottom: .3rem;
+}
+
+.footer--contact-details > * {
+    margin: .3rem;
+}
+
+.rotated {
+    transform: rotate(180deg);
+    transition: all ease-in-out .2s;
+}
+.unrotated {
+    transform: rotate(180deg);
+    transition: all ease-in-out .2s;   
+}
+
