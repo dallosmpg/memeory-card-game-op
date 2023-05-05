@@ -17,3 +17,15 @@ header {
     font-size: 1.5rem;
     font-weight: 700;
 }
+.error {
+    animation: change-size-color .5s 2  ;
+}
+
+@keyframes change-size-color {
+    0% {}
+    50% {
+        color: red;
+        transform: scale(1.1);
+    }
+    100% {}
+  }

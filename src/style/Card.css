@@ -9,6 +9,12 @@
     background: rgb(106, 135, 145);
 
     overflow: hidden;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+.card:hover {
+    box-shadow: 0px 0px 25px 10px rgb(163, 125, 68);
+    transform: scale(1.07);
 }
 .card img {
     border: 2px solid grey;
