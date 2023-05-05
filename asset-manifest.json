@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memeory-card-game-op/static/css/main.4aa501e1.css",
+    "main.css": "/memeory-card-game-op/static/css/main.5a1c559d.css",
     "main.js": "/memeory-card-game-op/static/js/main.80cd319e.js",
     "static/media/P1070339.jpg": "/memeory-card-game-op/static/media/P1070339.807701ea3778f5d5fdc6.jpg",
     "static/media/P1070491.jpg": "/memeory-card-game-op/static/media/P1070491.02bb8e834666b3f0bc1c.jpg",
@@ -13,11 +13,11 @@
     "static/media/P1070594.jpg": "/memeory-card-game-op/static/media/P1070594.b79dab004af914bc1fd4.jpg",
     "static/media/P1070539.jpg": "/memeory-card-game-op/static/media/P1070539.b3e26c8a6bd411270330.jpg",
     "index.html": "/memeory-card-game-op/index.html",
-    "main.4aa501e1.css.map": "/memeory-card-game-op/static/css/main.4aa501e1.css.map",
+    "main.5a1c559d.css.map": "/memeory-card-game-op/static/css/main.5a1c559d.css.map",
     "main.80cd319e.js.map": "/memeory-card-game-op/static/js/main.80cd319e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4aa501e1.css",
+    "static/css/main.5a1c559d.css",
     "static/js/main.80cd319e.js"
   ]
 }
