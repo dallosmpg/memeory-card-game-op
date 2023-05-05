@@ -2,7 +2,7 @@ import React from "react";
 import Scoreboard from "./Scoreboard";
 import '../style/Header.css'
 
-export default function Header() {
+export default function Header({clickedImages, setClickedImages}) {
 
     return (
         <header className="flex-center-row">
@@ -10,7 +10,7 @@ export default function Header() {
                 <h1>Memory card game</h1>
                 <p>Click on the images! But avoid clicking on the same for a second time!</p>
             </div>
-            <Scoreboard />
+            <Scoreboard setClickedImages={setClickedImages} clickedImages={clickedImages} />
         </header>
     )
 }

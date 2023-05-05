@@ -9,13 +9,9 @@ import './style//App.css';
 function App() {
   const [clickedImages, setClickedImages] = useState([]);
 
-  if (new Set(clickedImages).size !== clickedImages.length) {
-    console.log('DUPLICATE');
-  }
-
   return (
       <div className='wrapper'>
-        <Header />
+        <Header setClickedImages={setClickedImages} clickedImages={clickedImages} />
         <Gameboard setClickedImages={setClickedImages} />
         <Footer />
       </div>
