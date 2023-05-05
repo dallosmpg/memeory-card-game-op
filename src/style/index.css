@@ -1,6 +1,7 @@
 html {
     color-scheme: dark;
-}
+    background: linear-gradient(135deg, #20292e, #2e261d);
+  }
 
 body {
   margin: 0;
