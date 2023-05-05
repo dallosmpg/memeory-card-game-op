@@ -1,10 +1,17 @@
 .card {
-    width: 300px;
-    height: 250px;
+    width: 340px;
+    height: 300px;
+
+    padding: .1rem;
+    border: white solid 3px;
+    border-radius: 5px;
+
+    background: rgb(106, 135, 145);
 
     overflow: hidden;
 }
 .card img {
-    height: 290px;
-    width: auto;
+    border: 2px solid grey;
+    height: 95%;
+    max-width: 95%;
 }

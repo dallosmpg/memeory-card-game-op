@@ -2,12 +2,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr auto;
-  gap: 1.5rem;
+  gap: 1.2rem;
 
-  box-sizing: border-box  ;
+  box-sizing: border-box;
   height: 100vh;
 
-  border: .5rem white solid;
+  border: .1rem white solid;
 }
 
 header {

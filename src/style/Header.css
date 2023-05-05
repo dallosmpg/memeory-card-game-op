@@ -1,3 +1,19 @@
 header {
     justify-content: space-between !important;
 }
+
+.scoreboard h3 {
+    margin: 0;
+}
+
+.scoreboard h3:first-child {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.scoreboard h3:last-child {
+    margin-top: .8rem;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}

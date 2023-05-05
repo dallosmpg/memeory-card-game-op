@@ -39,6 +39,5 @@
 
 ### Process
 1. Laying out the site statically with creating components
-2. 
-
-### Devlog
+2. Allocating needed state to components
+3. Writing functionality  

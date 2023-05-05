@@ -1,12 +1,25 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Card from "./Card";
 
 import '../style/Gameboard.css';
 
 import uniqid from 'uniqid';
+import ColorThief from 'colorthief';
+
 
 export default function Gameboard({setClickedImages}) {
   const [imgOrder, setImgOrder] = useState(generateRandomOrder());
+
+  
+  useEffect(() => {
+      images.forEach(img => {
+        const colorThief = new ColorThief();
+        const currImg = document.querySelector(`#num-${img.id}`);
+        // colorThief.getColor(currImg, color => console.log(color))
+        // console.log(colorThief);
+    })
+  }, [])
+
 
   function generateRandomOrder() {  
     const randomImageOrder = [];
@@ -76,7 +89,6 @@ export default function Gameboard({setClickedImages}) {
     ]
 
     const imagesInOrder = imgOrder.map(num => images.find(imgObj => num === imgObj.id))
-
     return (
         <div className="gameboard">
             {imagesInOrder.map(img => {
