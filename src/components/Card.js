@@ -2,11 +2,14 @@ import React from "react";
 
 import '../style/Card.css'
 
-export default function Card({src, alt}) {
+export default function Card({src, alt, id, setClickedImages, setImgOrder, generateRandomOrder}) {
 
     return (
         <div className="card flex-center-column">
-            <img src={src} alt={alt} />
+            <img onClick={() => {
+                setClickedImages(prevClikedImages => [...prevClikedImages, id]);
+                setImgOrder(generateRandomOrder());
+            }} src={src} alt={alt} />
             <p></p>
         </div>
     )

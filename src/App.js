@@ -1,13 +1,22 @@
-import './style//App.css';
+import  React, { useState } from 'react';
+
 import Header from './components/Header';
 import Gameboard from './components/Gameboard';
 import Footer from './components/Footer';
 
+import './style//App.css';
+
 function App() {
+  const [clickedImages, setClickedImages] = useState([]);
+
+  if (new Set(clickedImages).size !== clickedImages.length) {
+    console.log('DUPLICATE');
+  }
+
   return (
       <div className='wrapper'>
         <Header />
-        <Gameboard />
+        <Gameboard setClickedImages={setClickedImages} />
         <Footer />
       </div>
     );
