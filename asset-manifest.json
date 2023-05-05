@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/memeory-card-game-op/static/css/main.57e90292.css",
-    "main.js": "/memeory-card-game-op/static/js/main.4ed11df4.js",
-    "static/media/P1070365.jpg": "/memeory-card-game-op/static/media/P1070365.394246ca0a50c89d5497.jpg",
-    "static/media/P1070339.jpg": "/memeory-card-game-op/static/media/P1070339.d2d07f77b3b0ad6fa164.jpg",
-    "static/media/P1070366.jpg": "/memeory-card-game-op/static/media/P1070366.76d674150445fd1836bb.jpg",
-    "static/media/P1070345.jpg": "/memeory-card-game-op/static/media/P1070345.24fbd54c209f51c5b2ca.jpg",
-    "static/media/P1070491.jpg": "/memeory-card-game-op/static/media/P1070491.3c2871761cb84795b5c3.jpg",
-    "static/media/P1070476.jpg": "/memeory-card-game-op/static/media/P1070476.2b317cb6210399903a02.jpg",
-    "static/media/P1070540.jpg": "/memeory-card-game-op/static/media/P1070540.dd4e3ad8cb9317fac2ea.jpg",
-    "static/media/P1070594.jpg": "/memeory-card-game-op/static/media/P1070594.d99b7af6e3872513c633.jpg",
-    "static/media/P1070378.jpg": "/memeory-card-game-op/static/media/P1070378.6bfe22eae3191f08ca66.jpg",
-    "static/media/P1070539.jpg": "/memeory-card-game-op/static/media/P1070539.88e7c7b7096ba2a3a597.jpg",
+    "main.css": "/memeory-card-game-op/static/css/main.4aa501e1.css",
+    "main.js": "/memeory-card-game-op/static/js/main.80cd319e.js",
+    "static/media/P1070339.jpg": "/memeory-card-game-op/static/media/P1070339.807701ea3778f5d5fdc6.jpg",
+    "static/media/P1070491.jpg": "/memeory-card-game-op/static/media/P1070491.02bb8e834666b3f0bc1c.jpg",
+    "static/media/P1070365.jpg": "/memeory-card-game-op/static/media/P1070365.bceb47dc785903b94701.jpg",
+    "static/media/P1070540.jpg": "/memeory-card-game-op/static/media/P1070540.bec8e05644a5135aeeb0.jpg",
+    "static/media/P1070366.jpg": "/memeory-card-game-op/static/media/P1070366.3d0101ceaaf65780143b.jpg",
+    "static/media/P1070476.jpg": "/memeory-card-game-op/static/media/P1070476.1990d1db3de390d18d9c.jpg",
+    "static/media/P1070378.jpg": "/memeory-card-game-op/static/media/P1070378.cb0537693e7e1d19ae8f.jpg",
+    "static/media/P1070345.jpg": "/memeory-card-game-op/static/media/P1070345.02a043a884ee161f6699.jpg",
+    "static/media/P1070594.jpg": "/memeory-card-game-op/static/media/P1070594.b79dab004af914bc1fd4.jpg",
+    "static/media/P1070539.jpg": "/memeory-card-game-op/static/media/P1070539.b3e26c8a6bd411270330.jpg",
     "index.html": "/memeory-card-game-op/index.html",
-    "main.57e90292.css.map": "/memeory-card-game-op/static/css/main.57e90292.css.map",
-    "main.4ed11df4.js.map": "/memeory-card-game-op/static/js/main.4ed11df4.js.map"
+    "main.4aa501e1.css.map": "/memeory-card-game-op/static/css/main.4aa501e1.css.map",
+    "main.80cd319e.js.map": "/memeory-card-game-op/static/js/main.80cd319e.js.map"
   },
   "entrypoints": [
-    "static/css/main.57e90292.css",
-    "static/js/main.4ed11df4.js"
+    "static/css/main.4aa501e1.css",
+    "static/js/main.80cd319e.js"
   ]
 }
